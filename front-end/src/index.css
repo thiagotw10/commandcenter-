@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Nunito+Sans:ital,wght@0,700;1,400&display=swap");
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollCMDC::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.scrollCMDC::-webkit-scrollbar-thumb {
+  background: #161e2c;
+  border-left: 0.2rem solid #0e1219;
+  border-right: 0.2rem solid #0e1219;
+  border-radius: 0.4rem;
+}
+
+.scrollCMDC::-webkit-scrollbar-track {
+  background: #0e1219;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* responsive to big screens */
+}
+
+@media (min-width: 100rem) {
+  html {
+    font-size: 115%;
+  }
+}
+
+@media (min-width: 93rem) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 82rem) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 67rem) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 62rem) {
+  html {
+    font-size: 65%;
+  }
+}
