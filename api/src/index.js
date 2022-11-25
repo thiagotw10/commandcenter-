@@ -1,7 +1,7 @@
 const express = require('express')
 const routes = require('./routes')
 const cors = require('cors')
-const feeding =  require('./feeding/index')
+// const feeding =  require('./feeding/index')
 const app = express()
 require('dotenv')
 

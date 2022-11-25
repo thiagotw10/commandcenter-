@@ -15,7 +15,7 @@ async function init() {
     const pool = await oracledb.createPool({
       user: "tacom.izidorio",
       password: "S4bara2021",
-      connectString: "odaris-scan.sabara.local:1521/producaomv",
+      connectString: "odaris-scan.sabara.local:1521/producaom",
       sessionCallback: initSession,
       poolMin: 0,
       poolMax: 200,
@@ -138,7 +138,7 @@ const items_with_greater_variation = require("./items_with_greater_variation");
 const pending_requests = require("./pending_requests");
 const stock_days_5d = require("./stock_days_5d");
 const OPMS_in_next_24h = require("./OPMS_in_next_24h");
-const list_OPMES_procedures = require("./list_OPMES_procedures");
+// const list_OPMES_procedures = require("./list_OPMES_procedures");
 const list_procedures_achieved_OPMES = require("./list_procedures_achieved_OPMES");
 const number_procedures_in_24Hour_period = require("./number_procedures_in_24Hour_period");
 const surgeries_OPME_per_next_day = require("./surgeries_OPME_per_next_day");
